@@ -1,5 +1,6 @@
 import Frontend from "../components/Skills/Frontend";
 import Backend from "../components/Skills/Backend";
+import ScrollDown from "../components/common/ScrollDown";
 
 function Skills() {
   return (
@@ -10,6 +11,8 @@ function Skills() {
       <div className="skills__container container grid">
         <Frontend />
         <Backend />
+
+        <ScrollDown target="services" />
       </div>
     </section>
   );

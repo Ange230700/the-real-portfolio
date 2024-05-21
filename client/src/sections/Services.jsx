@@ -1,4 +1,5 @@
 import { useState } from "react";
+import ScrollDown from "../components/common/ScrollDown";
 
 function Services() {
   const [toggleState, setToggleState] = useState(0);
@@ -296,6 +297,8 @@ function Services() {
             </div>
           </div>
         </div>
+
+        <ScrollDown target="qualification" />
       </div>
     </section>
   );

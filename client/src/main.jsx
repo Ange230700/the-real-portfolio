@@ -7,7 +7,7 @@ import { register } from "swiper/element"; // eslint-disable-line
 
 import App from "./App";
 
-import Portfolio from "./pages/Portfolio";
+import Page from "./pages/Page";
 
 import "./sass/index.scss";
 
@@ -21,7 +21,7 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Portfolio />,
+        element: <Page />,
       },
     ],
   },

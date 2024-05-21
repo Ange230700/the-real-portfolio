@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
 function Header() {
@@ -32,6 +33,8 @@ function Header() {
     "about",
     "skills",
     "services",
+    "qualification",
+    "testimonials",
     "portfolio",
     "contact",
   ];
@@ -44,9 +47,9 @@ function Header() {
     <header className={`header ${headerActive ? "scroll-header" : ""}`}>
       <nav className="nav container">
         {/* Logo link */}
-        <a href="index.html" className="nav__logo">
+        <Link to="/" className="nav__logo">
           Ange KOUAKOU
-        </a>
+        </Link>
 
         {/* Navigation links */}
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>

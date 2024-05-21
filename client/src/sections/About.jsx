@@ -1,6 +1,7 @@
 import AboutImg from "../../../server/public/assets/images/about.jpg"; // eslint-disable-line
 import CV from "../../../server/public/assets/John-Cv.pdf"; // eslint-disable-line
 import Info from "../components/About/Info";
+import ScrollDown from "../components/common/ScrollDown";
 
 function About() {
   return (
@@ -24,6 +25,8 @@ function About() {
             Download CV <img src="/assets/icons/files.svg" alt="file pic" />
           </a>
         </div>
+
+        <ScrollDown target="skills" />
       </div>
     </section>
   );

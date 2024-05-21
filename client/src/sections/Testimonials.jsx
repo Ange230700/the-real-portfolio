@@ -12,6 +12,7 @@
 // import { Pagination } from "swiper/modules";
 
 import Data from "../data/Testimonials/Data";
+import ScrollDown from "../components/common/ScrollDown";
 
 function Testimonials() {
   //   // swiper element
@@ -50,31 +51,35 @@ function Testimonials() {
   //   swiperEl.initialize();
 
   return (
-    <section className="testimonial container section">
+    <section className="testimonials container section" id="testimonials">
       <h2 className="section__title">Testimonial</h2>
       <span className="section__subtitle">My clients say</span>
 
-      <swiper-container
-        className="testimonial__container"
-        slides-per-view="3"
-        speed="500"
-        // loop="true"
-        css-mode="true"
-        pagination="true"
-      >
-        {Data.map(({ id, image, title, description }) => (
-          <swiper-slide key={id} className="testimonial__card">
-            <img
-              src={image}
-              alt="testimonial card pic"
-              className="testimonial__img"
-            />
+      <div className="testimonials__container container grid">
+        <swiper-container
+          className="testimonials__container"
+          slides-per-view="3"
+          speed="500"
+          // loop="true"
+          css-mode="true"
+          pagination="true"
+        >
+          {Data.map(({ id, image, title, description }) => (
+            <swiper-slide key={id} className="testimonials__card">
+              <img
+                src={image}
+                alt="testimonials card pic"
+                className="testimonials__img"
+              />
 
-            <h3 className="testimonial__name">{title}</h3>
-            <p className="testimonial__description">{description}</p>
-          </swiper-slide>
-        ))}
-      </swiper-container>
+              <h3 className="testimonials__name">{title}</h3>
+              <p className="testimonials__description">{description}</p>
+            </swiper-slide>
+          ))}
+        </swiper-container>
+
+        <ScrollDown target="contact" />
+      </div>
     </section>
   );
 }

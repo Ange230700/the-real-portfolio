@@ -14,7 +14,7 @@ function Home() {
           <Introduction />
         </div>
 
-        <ScrollDown />
+        <ScrollDown target="about" />
       </div>
     </section>
   );

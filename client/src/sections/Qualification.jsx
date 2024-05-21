@@ -1,4 +1,5 @@
 import { useState } from "react";
+import ScrollDown from "../components/common/ScrollDown";
 
 function Qualification() {
   const [toggleState, setToggleState] = useState(1);
@@ -8,11 +9,11 @@ function Qualification() {
   };
 
   return (
-    <section className="qualification section">
+    <section className="qualification section" id="qualification">
       <h2 className="section__title">Qualification</h2>
       <span className="section__subtitle">My personal journey</span>
 
-      <div className="qualification__container container">
+      <div className="qualification__container container grid">
         <div className="qualification__tabs">
           <button
             type="button"
@@ -185,6 +186,8 @@ function Qualification() {
             </div>
           </div>
         </div>
+
+        <ScrollDown target="testimonials" />
       </div>
     </section>
   );
