@@ -1,9 +1,6 @@
-/*
-    eslint-disable import/no-extraneous-dependencies
-*/
-import Image1 from "@harmonia/server/public/assets/images/testimonial1.png";
-import Image2 from "@harmonia/server/public/assets/images/testimonial2.png";
-import Image3 from "@harmonia/server/public/assets/images/testimonial3.png";
+import Image1 from "@harmonia/server/public/assets/images/testimonial1.png"; // eslint-disable-line
+import Image2 from "@harmonia/server/public/assets/images/testimonial2.png"; // eslint-disable-line
+import Image3 from "@harmonia/server/public/assets/images/testimonial3.png"; // eslint-disable-line
 
 const Data = [
   {

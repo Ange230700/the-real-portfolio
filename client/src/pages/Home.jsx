@@ -1,6 +1,6 @@
 import Social from "../components/Home/Social";
-import Data from "../components/Home/Data";
-import ScrollDown from "../components/Home/ScrollDown";
+import Introduction from "../components/Home/Introduction";
+import ScrollDown from "../components/common/ScrollDown";
 
 function Home() {
   return (
@@ -11,7 +11,7 @@ function Home() {
 
           <div className="home__img" />
 
-          <Data />
+          <Introduction />
         </div>
 
         <ScrollDown />
