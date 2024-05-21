@@ -1,6 +1,8 @@
 import { Outlet } from "react-router-dom";
 
 import Header from "./components/common/Header";
+import Footer from "./components/common/Footer";
+import ScrollUp from "./components/common/ScrollUp";
 
 function App() {
   return (
@@ -9,6 +11,9 @@ function App() {
       <main className="main">
         <Outlet />
       </main>
+
+      <Footer />
+      <ScrollUp />
     </div>
   );
 }

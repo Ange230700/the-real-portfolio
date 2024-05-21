@@ -4,6 +4,7 @@ import Skills from "./Skills";
 import Services from "./Services";
 import Qualification from "./Qualification";
 import Testimonials from "./Testimonials";
+import Contact from "./Contact";
 
 function Portfolio() {
   return (
@@ -14,6 +15,7 @@ function Portfolio() {
       <Services />
       <Qualification />
       <Testimonials />
+      <Contact />
     </>
   );
 }
