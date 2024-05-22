@@ -67,12 +67,45 @@
 
 /* For medium devices */
 @media screen and (max-width: 768px) {
+  .footer__list {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+  }
+
+  .footer__socials {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+  }
+
+  .footer__copy {
+    margin-top: 2rem;
+  }
 }
 
 /* For small devices */
 @media screen and (max-width: 576px) {
+  .footer__container {
+    padding: 1.5rem 0 3rem;
+  }
+
+  .footer__title {
+    font-size: var(--h3-font-size);
+  }
 }
 
 /* For smaller devices */
 @media screen and (max-width: 350px) {
+  .footer__title {
+    font-size: var(--h2-font-size);
+  }
+
+  .footer__social-link {
+    font-size: 0.875rem;
+  }
+
+  .footer__copy {
+    font-size: var(--tiny-font-size);
+  }
 }
