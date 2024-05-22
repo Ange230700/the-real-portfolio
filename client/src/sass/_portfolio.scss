@@ -13,6 +13,9 @@
   font-weight: var(--font-medium);
   border-radius: 0.5rem;
   text-transform: capitalize;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
 }
 
 .work__item:hover {
@@ -64,8 +67,10 @@
 
 /* active work */
 .active-work {
-  background-color: var(--title-color);
+  background-color: var(--title-color-dark);
   color: var(--container-color);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transform: scale(1.05);
 }
 
 /*======================= BREAKPOINTS =======================*/
