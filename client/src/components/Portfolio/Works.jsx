@@ -4,13 +4,17 @@ import projectsNav from "../../data/Portfolio/projectsNav"; // eslint-disable-li
 import WorkItem from "./WorkItem";
 
 function Works() {
+  const allButtonId = projectsNav.find(
+    (projectNav) => projectNav.name.toLowerCase() === "all"
+  ).id;
+
   const [NavProject, setNavProject] = useState({
     name: "all",
   });
 
   const [projects, setProjects] = useState([]);
 
-  const [active, setActive] = useState(0);
+  const [active, setActive] = useState(allButtonId);
 
   useEffect(() => {
     if (NavProject.name === "all") {
