@@ -89,17 +89,27 @@ function Header() {
           </ul>
 
           {/* Close button for the mobile menu */}
-          <img src="" alt="nav close icon" className="nav__close" />
+          {Toggle && (
+            <button
+              type="button"
+              className="nav__close"
+              onClick={() => showMenu(false)}
+            >
+              <img src="" alt="nav close icon" />
+            </button>
+          )}
         </div>
 
         {/* Toggle button for the mobile menu */}
-        <button
-          type="button"
-          className="nav__toggle"
-          onClick={() => showMenu(!Toggle)}
-        >
-          <img src="" alt="nav toggle icon" />
-        </button>
+        {!Toggle && (
+          <button
+            type="button"
+            className="nav__toggle"
+            onClick={() => showMenu(true)}
+          >
+            <img src="" alt="nav toggle icon" />
+          </button>
+        )}
       </nav>
     </header>
   );
