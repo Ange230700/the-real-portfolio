@@ -1,7 +1,9 @@
+import PropTypes from "prop-types";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser"; // eslint-disable-line
+import ScrollDown from "../components/common/ScrollDown";
 
-function Contact() {
+function Contact({ navLinks }) {
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -144,9 +146,19 @@ function Contact() {
             </button>
           </form>
         </div>
+
+        <ScrollDown navLinks={navLinks} currentId="contact" />
       </div>
     </section>
   );
 }
+
+Contact.propTypes = {
+  navLinks: PropTypes.arrayOf(
+    PropTypes.shape({
+      name: PropTypes.string,
+    })
+  ).isRequired,
+};
 
 export default Contact;

@@ -1,9 +1,10 @@
+import PropTypes from "prop-types";
 import AboutImg from "../../../server/public/assets/images/about.jpg"; // eslint-disable-line
 import CV from "../../../server/public/assets/John-Cv.pdf"; // eslint-disable-line
 import Info from "../components/About/Info";
 import ScrollDown from "../components/common/ScrollDown";
 
-function About() {
+function About({ navLinks }) {
   return (
     <section className="about section" id="about">
       <h2 className="section__title">About Me</h2>
@@ -31,10 +32,18 @@ function About() {
           </a>
         </div>
 
-        <ScrollDown target="skills" />
+        <ScrollDown navLinks={navLinks} currentId="about" />
       </div>
     </section>
   );
 }
+
+About.propTypes = {
+  navLinks: PropTypes.arrayOf(
+    PropTypes.shape({
+      name: PropTypes.string,
+    })
+  ).isRequired,
+};
 
 export default About;

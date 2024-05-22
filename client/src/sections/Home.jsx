@@ -16,18 +16,18 @@ function Home({ navLinks }) {
           <Introduction />
         </div>
 
-        <ScrollDown
-          target="about"
-          navLinks={navLinks}
-          currentId={navLinks[0].id}
-        />
+        <ScrollDown navLinks={navLinks} currentId="home" />
       </div>
     </section>
   );
 }
 
 Home.propTypes = {
-  navLinks: PropTypes.arrayOf(PropTypes.string).isRequired,
+  navLinks: PropTypes.arrayOf(
+    PropTypes.shape({
+      name: PropTypes.string,
+    })
+  ).isRequired,
 };
 
 export default Home;

@@ -1,7 +1,8 @@
+import PropTypes from "prop-types";
 import { useState } from "react";
 import ScrollDown from "../components/common/ScrollDown";
 
-function Services() {
+function Services({ navLinks }) {
   const [toggleState, setToggleState] = useState(0);
 
   const toggleTab = (index) => {
@@ -298,10 +299,18 @@ function Services() {
           </div>
         </div>
 
-        <ScrollDown target="qualification" />
+        <ScrollDown navLinks={navLinks} currentId="services" />
       </div>
     </section>
   );
 }
+
+Services.propTypes = {
+  navLinks: PropTypes.arrayOf(
+    PropTypes.shape({
+      name: PropTypes.string,
+    })
+  ).isRequired,
+};
 
 export default Services;

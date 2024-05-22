@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import { useEffect } from "react";
 import { register } from "swiper/element"; // eslint-disable-line
 import Data from "../data/Testimonials/Data";
@@ -5,7 +6,7 @@ import ScrollDown from "../components/common/ScrollDown";
 import "swiper/css"; // eslint-disable-line
 import "swiper/css/pagination"; // eslint-disable-line
 
-function Testimonials() {
+function Testimonials({ navLinks }) {
   useEffect(() => {
     // Register Swiper custom elements
     register();
@@ -56,9 +57,17 @@ function Testimonials() {
         )}
       </swiper-container>
 
-      <ScrollDown target="contact" />
+      <ScrollDown navLinks={navLinks} currentId="testimonials" />
     </section>
   );
 }
+
+Testimonials.propTypes = {
+  navLinks: PropTypes.arrayOf(
+    PropTypes.shape({
+      name: PropTypes.string,
+    })
+  ).isRequired,
+};
 
 export default Testimonials;

@@ -1,11 +1,18 @@
+import { HashLink } from "react-router-hash-link";
+import navLinks from "../../data/Header/navLinks";
+
 function Footer() {
+  // Function to capitalize the first letter of a string
+  const capitalize = (string) =>
+    string.charAt(0).toUpperCase() + string.slice(1);
+
   return (
     <footer className="footer">
       <div className="footer__container container">
         <h1 className="footer__title">KOUAKOU</h1>
 
         <ul className="footer__list">
-          <li className="footer__item">
+          {/* <li className="footer__item">
             <a href="#home" className="footer__link">
               Home
             </a>
@@ -29,7 +36,15 @@ function Footer() {
             <a href="#contact" className="footer__link">
               Contact
             </a>
-          </li>
+          </li> */}
+
+          {navLinks.map((navLink) => (
+            <li className="footer__item" key={navLink.id}>
+              <HashLink className="footer__link" to={`#${navLink.name}`} smooth>
+                {capitalize(navLink.name)}
+              </HashLink>
+            </li>
+          ))}
         </ul>
 
         <div className="footer__socials">
