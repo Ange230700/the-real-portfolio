@@ -6,18 +6,19 @@ import Qualification from "../sections/Qualification";
 import Testimonials from "../sections/Testimonials";
 import Contact from "../sections/Contact";
 import Portfolio from "../sections/Portfolio";
+import navLinks from "../data/Header/navLinks";
 
 function Page() {
   return (
     <>
-      <Home />
-      <About />
-      <Skills />
-      <Services />
-      <Qualification />
-      <Testimonials />
-      <Portfolio />
-      <Contact />
+      <Home navLinks={navLinks} />
+      <About navLinks={navLinks} />
+      <Skills navLinks={navLinks} />
+      <Services navLinks={navLinks} />
+      <Qualification navLinks={navLinks} />
+      <Testimonials navLinks={navLinks} />
+      <Portfolio navLinks={navLinks} />
+      <Contact navLinks={navLinks} />
     </>
   );
 }

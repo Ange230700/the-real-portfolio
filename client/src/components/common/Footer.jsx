@@ -2,7 +2,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer__container container">
-        <h1 className="footer__title">Smith</h1>
+        <h1 className="footer__title">KOUAKOU</h1>
 
         <ul className="footer__list">
           <li className="footer__item">
@@ -44,9 +44,7 @@ function Footer() {
           </a>
         </div>
 
-        <span className="footer__copy">
-          &#169; Crypticalcoder. All rigths reserved
-        </span>
+        <span className="footer__copy">&#169; Ange. All rigths reserved</span>
       </div>
     </footer>
   );

@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
+import navLinks from "../../data/Header/navLinks";
 
 function Header() {
   // State to toggle the header's active class based on scroll position
@@ -27,21 +28,35 @@ function Header() {
     return () => window.removeEventListener("scroll", handleScroll); // Cleanup on component unmount
   }, []);
 
-  // Navigation links
-  const navLinks = [
-    "home",
-    "about",
-    "skills",
-    "services",
-    "qualification",
-    "testimonials",
-    "portfolio",
-    "contact",
-  ];
-
   // Function to capitalize the first letter of a string
   const capitalize = (string) =>
     string.charAt(0).toUpperCase() + string.slice(1);
+
+  // Intersection Observer to track which section is in view
+  useEffect(() => {
+    const sections = document.querySelectorAll("section[id]");
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setActiveNav(`#${entry.target.id}`);
+          }
+        });
+      },
+      { threshold: 0.6 }
+    );
+
+    sections.forEach((section) => {
+      observer.observe(section);
+    });
+
+    return () => {
+      sections.forEach((section) => {
+        observer.unobserve(section);
+      });
+    };
+  }, []);
 
   return (
     <header className={`header ${headerActive ? "scroll-header" : ""}`}>
@@ -55,19 +70,19 @@ function Header() {
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
           <ul className="nav__list grid">
             {navLinks.map((navLink) => (
-              <li className="nav__item" key={navLink}>
+              <li className="nav__item" key={navLink.id}>
                 <HashLink
                   className={
-                    activeNav === `#${navLink}`
+                    activeNav === `#${navLink.name}`
                       ? "nav__link active-link"
                       : "nav__link"
                   }
-                  to={`#${navLink}`}
+                  to={`#${navLink.name}`}
                   smooth
-                  onClick={() => setActiveNav(`#${navLink}`)}
+                  onClick={() => setActiveNav(`#${navLink.name}`)}
                 >
-                  <img className="nav__icon" src="" alt={navLink} />
-                  {capitalize(navLink)}
+                  <img className="nav__icon" src="" alt={navLink.name} />
+                  {capitalize(navLink.name)}
                 </HashLink>
               </li>
             ))}
