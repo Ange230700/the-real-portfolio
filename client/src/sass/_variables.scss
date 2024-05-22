@@ -1,4 +1,4 @@
-/*=============================== VARIABLES CSS ===============================*/
+/*====================== VARIABLES CSS ======================*/
 :root {
   --header-height: 3rem;
 
@@ -10,7 +10,7 @@
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
   --text-color: hsl(var(--hue), var(--sat), 46%);
   --body-color: hsl(var(--hue), var(--sat), 98%);
-  --container-color: #fff;
+  --container-color: hsl(0, 0%, 100%);
 
   /*================= Font and typography =================*/
   --body-font: "Poppins", sans-serif;

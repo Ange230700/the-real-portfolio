@@ -4,7 +4,7 @@ function Introduction() {
   return (
     <div className="home__data">
       <h1 className="home__title">
-        Ange KOUAKOU <img src="/assets/icons/hand.svg" alt="hand icon" />
+        Ange KOUAKOU <img src="" alt="waving hand icon" />
       </h1>
 
       <h3 className="home__subtitle">Visual Designer</h3>
@@ -16,7 +16,7 @@ function Introduction() {
 
       <HashLink to="#contact" className="button button--flex">
         Say Hello
-        <img src="/assets/icons/send.svg" alt="send icon" />
+        <img src="" alt="send icon" />
       </HashLink>
     </div>
   );

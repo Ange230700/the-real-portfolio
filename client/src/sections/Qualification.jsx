@@ -62,17 +62,17 @@ function Qualification() {
               </div>
 
               <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
+                <span className="qualification__rounder" />
+                <span className="qualification__line" />
               </div>
             </div>
 
             <div className="qualification__data">
-              <div></div>
+              <div />
 
               <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
+                <span className="qualification__rounder" />
+                <span className="qualification__line" />
               </div>
 
               <div>
@@ -87,13 +87,6 @@ function Qualification() {
             </div>
 
             <div className="qualification__data">
-              <div></div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-
               <div>
                 <h3 className="qualification__title">Art Director</h3>
                 <span className="qualification__subtitle">
@@ -103,14 +96,19 @@ function Qualification() {
                   <img src="" alt="calendar alt" /> 2020 - 2021
                 </div>
               </div>
+
+              <div>
+                <span className="qualification__rounder" />
+                <span className="qualification__line" />
+              </div>
             </div>
 
             <div className="qualification__data">
-              <div></div>
+              <div />
 
               <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
+                <span className="qualification__rounder" />
+                <span className="qualification__line" />
               </div>
 
               <div>
@@ -133,11 +131,11 @@ function Qualification() {
             }
           >
             <div className="qualification__data">
-              <div></div>
+              <div />
 
               <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
+                <span className="qualification__rounder" />
+                <span className="qualification__line" />
               </div>
 
               <div>
@@ -163,17 +161,17 @@ function Qualification() {
               </div>
 
               <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
+                <span className="qualification__rounder" />
+                <span className="qualification__line" />
               </div>
             </div>
 
             <div className="qualification__data">
-              <div></div>
+              <div />
 
               <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
+                <span className="qualification__rounder" />
+                <span className="qualification__line" />
               </div>
 
               <div>
@@ -182,6 +180,23 @@ function Qualification() {
                 <div className="qualification__calendar">
                   <img src="" alt="calendar alt" /> 2018 - 2020
                 </div>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">UX Designer</h3>
+                <span className="qualification__subtitle">
+                  Apple Inc - Spain
+                </span>
+                <div className="qualification__calendar">
+                  <img src="" alt="calendar alt" /> 2012 - Present
+                </div>
+              </div>
+
+              <div>
+                <span className="qualification__rounder" />
+                <span className="qualification__line" />
               </div>
             </div>
           </div>

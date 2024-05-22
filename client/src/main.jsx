@@ -3,16 +3,11 @@ import ReactDOM from "react-dom/client";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import { register } from "swiper/element"; // eslint-disable-line
-
 import App from "./App";
 
 import Page from "./pages/Page";
 
 import "./sass/index.scss";
-
-// register Swiper custom elements
-register();
 
 const router = createBrowserRouter([
   {

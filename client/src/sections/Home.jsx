@@ -9,6 +9,7 @@ function Home() {
         <div className="home__content grid">
           <Social />
 
+          {/* background url is set in home stylesheet */}
           <div className="home__img" />
 
           <Introduction />
