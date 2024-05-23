@@ -6,7 +6,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "prettier": "npx prettier --write .",
-    "lint": "npx eslint ."
+    "lint": "npx eslint . --fix"
   },
   "dependencies": {
     "@emailjs/browser": "^4.3.3",

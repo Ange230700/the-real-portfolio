@@ -4,13 +4,14 @@
     "dev": "nodemon --ignore ./database/fixtures index.js",
     "db:migrate": "node ./bin/migrate.js",
     "db:seed": "node ./bin/seed.js",
-    "build": "node ./bin/migrate.js",
+    "build": "npm run db:migrate",
     "start": "node index.js",
     "test": "jest",
     "prettier": "npx prettier --write .",
-    "lint": "npx eslint ."
+    "lint": "npx eslint . --fix"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "mysql2": "^3.6.7"
