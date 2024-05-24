@@ -1,25 +1,21 @@
-import Image1 from "@harmonia/server/public/assets/images/testimonial1.png"; // eslint-disable-line
-import Image2 from "@harmonia/server/public/assets/images/testimonial2.png"; // eslint-disable-line
-import Image3 from "@harmonia/server/public/assets/images/testimonial3.png"; // eslint-disable-line
-
 const Data = [
   {
     id: 1,
-    image: Image1,
+    image: "",
     title: "Jhon Doe",
     description:
       "A really good job, all aspects of the project were followed step by step and with good results.",
   },
   {
     id: 2,
-    image: Image2,
+    image: "",
     title: "Harry Clinton",
     description:
       "A really good job, all aspects of the project were followed step by step and with good results.",
   },
   {
     id: 3,
-    image: Image3,
+    image: "",
     title: "Sara Cill",
     description:
       "A really good job, all aspects of the project were followed step by step and with good results.",

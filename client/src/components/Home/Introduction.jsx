@@ -4,19 +4,42 @@ function Introduction() {
   return (
     <div className="home__data">
       <h1 className="home__title">
-        Ange KOUAKOU <img src="" alt="waving hand icon" />
+        Ange KOUAKOU{" "}
+        <img
+          src={`${import.meta.env.VITE_API_URL}/assets/icons/hand.svg`}
+          alt="waving hand icon"
+          className="home__hand-icon"
+        />
       </h1>
 
-      <h3 className="home__subtitle">Visual Designer</h3>
+      <h3 className="home__subtitle">Fullstack web developer</h3>
 
       <p className="home__description">
-        I'm creative designer based in New York, and I'm very passionate and
-        dedicated to my work.
+        I am a fullstack web developer with experience in building web
+        applications. I am specialized in MERN stack development and I am all
+        about building scalable and maintainable applications.
       </p>
 
       <HashLink to="#contact" className="button button--flex">
-        Say Hello
-        <img src="" alt="send icon" />
+        Let's get in touch
+        {/* <img
+          src={`${import.meta.env.VITE_API_URL}/assets/icons/send.svg`}
+          alt="send icon"
+          className="home__send-icon"
+        /> */}
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          id="Layer_1"
+          data-name="Layer 1"
+          viewBox="0 0 24 24"
+          width="13px"
+          height="13px"
+        >
+          <path
+            d="m.172,3.708C-.216,2.646.076,1.47.917.713,1.756-.041,2.951-.211,3.965.282l18.09,8.444c.97.454,1.664,1.283,1.945,2.273H4.048L.229,3.835c-.021-.041-.04-.084-.057-.127Zm3.89,9.292L.309,20.175c-.021.04-.039.08-.054.122-.387,1.063-.092,2.237.749,2.993.521.467,1.179.708,1.841.708.409,0,.819-.092,1.201-.279l18.011-8.438c.973-.456,1.666-1.288,1.945-2.28H4.062Z"
+            fill="#ffffff"
+          />
+        </svg>
       </HashLink>
     </div>
   );

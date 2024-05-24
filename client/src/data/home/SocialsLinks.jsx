@@ -1,21 +1,23 @@
 const SocialsLinks = [
   {
     id: 1,
-    url: "https://www.instagram.com/",
-    icon: "instagram",
-    src: "",
+    url: "https://www.linkedin.com/in/ange-kouakou/",
+    icon: "LinkedIn",
+    src: `${import.meta.env.VITE_API_URL}/assets/icons/in.svg`,
   },
   {
     id: 2,
-    url: "https://www.facebook.com/",
-    icon: "facebook",
-    src: "",
+    url: "https://github.com/Ange230700",
+    icon: "Github",
+    // src: "",
+    src: `${import.meta.env.VITE_API_URL}/assets/icons/github.svg`,
   },
   {
     id: 3,
-    url: "https://www.twitter.com/",
+    url: "https://twitter.com/AngeEricStepha1",
     icon: "twitter",
-    src: "",
+    // src: "",
+    src: `${import.meta.env.VITE_API_URL}/assets/icons/twitter.svg`,
   },
 ];
 
