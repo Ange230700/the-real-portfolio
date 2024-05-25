@@ -15,9 +15,9 @@ function Introduction() {
       <h3 className="home__subtitle">Fullstack web developer</h3>
 
       <p className="home__description">
-        I am a fullstack web developer with experience in building web
-        applications. I am specialized in MERN stack development and I am all
-        about building scalable and maintainable applications.
+        I am a fullstack web developer with a solid foundation in both frontend
+        and backend technologies. My objective is to leverage my skills to
+        contribute to innovative and impactful solutions.
       </p>
 
       <HashLink to="#contact" className="button button--flex">

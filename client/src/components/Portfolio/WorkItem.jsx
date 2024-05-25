@@ -1,30 +1,25 @@
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 
-function WorkItem({
-  id,
-  // image,
-  title,
-}) {
+function WorkItem({ id, image, title }) {
   return (
-    <div className="work__card" key={id}>
-      <img
-        // src={image}
-        src=""
-        alt={title}
-        className="work__img"
-      />
+    <Link
+      to="http://vps-d5babf40.vps.ovh.net:5001"
+      className="work__card"
+      key={id}
+    >
+      <img src={image} alt={title} className="work__img" />
       <h3 className="work__title">{title}</h3>
-      <Link to="/" className="work__button">
-        Demo <img src="" alt="work button icon" className="work__button-icon" />
-      </Link>
-    </div>
+      <div to="/" className="work__button">
+        <p>OTT platform</p>
+      </div>
+    </Link>
   );
 }
 
 WorkItem.propTypes = {
   id: PropTypes.number.isRequired,
-  // image: PropTypes.string.isRequired,
+  image: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
 };
 

@@ -25,6 +25,12 @@
   padding: 1rem 1.25rem;
 }
 
+.about__data {
+  .button--flex {
+    gap: 0.5rem;
+  }
+}
+
 .about__icon {
   font-style: 1.5rem;
   color: var(--title-color);

@@ -66,6 +66,10 @@
 
 .contact__form {
   width: 360px;
+
+  .button--flex {
+    gap: 1rem;
+  }
 }
 
 .contact__form-div {
