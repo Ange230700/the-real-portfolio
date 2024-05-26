@@ -1,7 +1,7 @@
 const projectsNav = [
   {
     id: 1,
-    name: "all",
+    name: "Tout",
   },
   // {
   //   id: 2,

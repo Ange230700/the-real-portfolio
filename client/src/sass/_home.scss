@@ -86,6 +86,10 @@
   animation: profile__animate 8s ease-in-out infinite 1s;
 }
 
+.home__scroll-button {
+  gap: 0.5rem;
+}
+
 @keyframes profile__animate {
   0% {
     border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;

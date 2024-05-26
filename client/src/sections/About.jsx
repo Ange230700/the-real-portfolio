@@ -7,8 +7,8 @@ import ScrollDown from "../components/common/ScrollDown";
 function About({ navLinks }) {
   return (
     <section className="about section" id="about">
-      <h2 className="section__title">About Me</h2>
-      <span className="section__subtitle">My introduction</span>
+      <h2 className="section__title">En savoir plus</h2>
+      <span className="section__subtitle">Introduction</span>
 
       <div className="about__container container grid">
         <img
@@ -24,14 +24,15 @@ function About({ navLinks }) {
           <Info />
 
           <p className="about__description">
-            I have a solid foundation in frontend and backend technologies. I've
-            contributed to web projects using modern practices for optimal
-            performance and user experience. My goal is to leverage my skills to
-            participate in innovative and impactful solutions.
+            J'ai une base solide dans les technologies frontend et backend. J'ai
+            contribué à des projets web en utilisant des pratiques modernes pour
+            une performance et une expérience utilisateur optimales. Mon
+            objectif est de mettre à profit mes compétences pour participer à
+            des solutions innovantes et impactantes.
           </p>
 
           <a download href={CV} className="button button--flex">
-            <p>Download CV</p>
+            <p>Télécharger CV</p>
             {/* <img src="/assets/icons/files.svg" alt="file pic" /> */}
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -47,7 +48,7 @@ function About({ navLinks }) {
           </a>
         </div>
 
-        <ScrollDown navLinks={navLinks} currentId="about" />
+        <ScrollDown navLinks={navLinks} currentId="en savoir plus" />
       </div>
     </section>
   );

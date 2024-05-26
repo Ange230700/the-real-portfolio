@@ -15,7 +15,7 @@ const SocialsLinks = [
   {
     id: 3,
     url: "https://twitter.com/AngeEricStepha1",
-    icon: "twitter",
+    icon: "Twitter",
     // src: "",
     src: `${import.meta.env.VITE_API_URL}/assets/icons/twitter.svg`,
   },

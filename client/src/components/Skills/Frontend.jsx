@@ -1,7 +1,7 @@
 function Frontend() {
   return (
     <div className="skills__content">
-      <h3 className="skills__title">Frontend developer</h3>
+      <h3 className="skills__title">Développeur frontend</h3>
 
       <div className="skills__box">
         <div className="skills__group">
@@ -46,7 +46,7 @@ function Frontend() {
 
             <div>
               <h3 className="skills__name">React</h3>
-              <span className="skills__level">Intermediate</span>
+              <span className="skills__level">Intermédiaire</span>
             </div>
           </div>
 
@@ -54,7 +54,7 @@ function Frontend() {
             {/* <img src="" alt="badge check icon" /> */}
             <svg
               id="Layer_1"
-              enable-background="new 0 0 74 74" // eslint-disable-line
+              enableBackground="new 0 0 74 74"
               viewBox="0 0 74 74"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -71,7 +71,7 @@ function Frontend() {
 
             <div>
               <h3 className="skills__name">SASS</h3>
-              <span className="skills__level">Intermediate</span>
+              <span className="skills__level">Intermédiaire</span>
             </div>
           </div>
         </div>

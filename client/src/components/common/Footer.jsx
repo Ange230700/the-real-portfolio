@@ -74,7 +74,7 @@ function Footer() {
               version="1.1"
               id="Capa_1"
               xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink" // eslint-disable-line
+              xmlnsXlink="http://www.w3.org/1999/xlink" // eslint-disable-line
               x="0px"
               y="0px"
               viewBox="0 0 511.999 511.999"
@@ -120,7 +120,9 @@ function Footer() {
           </a>
         </div>
 
-        <span className="footer__copy">&#169; Ange. All rigths reserved</span>
+        <span className="footer__copy">
+          &#169; Ange KOUAKOU. Tous droits réservés.
+        </span>
       </div>
     </footer>
   );

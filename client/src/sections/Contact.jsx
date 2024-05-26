@@ -27,11 +27,11 @@ function Contact({ navLinks }) {
   return (
     <section className="contact section" id="contact">
       <h2 className="section__title">Contact</h2>
-      <span className="section__subtitle">Get in touch with me</span>
+      <span className="section__subtitle">Contactez-moi</span>
 
       <div className="contact__container container grid">
         <div className="contact__content">
-          <h3 className="contact__title">Talk to me</h3>
+          <h3 className="contact__title">Adresses</h3>
 
           <div className="contact__info">
             <a
@@ -61,7 +61,7 @@ function Contact({ navLinks }) {
               </span>
 
               <p className="contact__button">
-                Write me
+                Envoyez un mail
                 {/* <img
                   src=""
                   alt="contact button icon"
@@ -97,11 +97,11 @@ function Contact({ navLinks }) {
                 <path d="m23.5,11c-.276,0-.5-.224-.5-.5,0-5.238-4.262-9.5-9.5-9.5-.276,0-.5-.224-.5-.5s.224-.5.5-.5c5.79,0,10.5,4.71,10.5,10.5,0,.276-.224.5-.5.5Zm-3.5-.5c0-3.584-2.916-6.5-6.5-6.5-.276,0-.5.224-.5.5s.224.5.5.5c3.033,0,5.5,2.467,5.5,5.5,0,.276.224.5.5.5s.5-.224.5-.5Zm2.234,11.771l.978-1.125c.508-.508.788-1.184.788-1.902s-.28-1.395-.837-1.945l-2.446-1.873c-1.048-1.048-2.753-1.049-3.803-.003l-1.532,1.494c-3.68-1.499-6.678-4.5-8.294-8.303l1.488-1.525c1.049-1.049,1.049-2.756.043-3.756l-1.959-2.543c-1.017-1.017-2.813-.993-3.78-.023l-1.174,1.024C.605,2.886,0,4.373,0,5.976c0,7.749,10.275,18.024,18.024,18.024,1.603,0,3.089-.605,4.21-1.729ZM5.909,1.446l1.959,2.543c.659.659.659,1.732-.004,2.396l-1.722,1.766c-.138.142-.18.352-.106.536,1.729,4.305,5.113,7.688,9.286,9.28.182.07.388.027.527-.108l1.766-1.722s.003-.003.004-.005c.639-.64,1.704-.681,2.44.043l2.446,1.873c.659.659.659,1.731-.023,2.416l-.979,1.125c-.908.91-2.144,1.411-3.479,1.411C10.864,23,1,13.136,1,5.976c0-1.335.501-2.571,1.387-3.456l1.175-1.025c.336-.336.779-.5,1.215-.5.419,0,.831.152,1.133.452Z" />
               </svg>
 
-              <h3 className="contact__card-title">Phone</h3>
+              <h3 className="contact__card-title">Téléphone</h3>
               <span className="contact__card-data">+33 7 51 52 41 88</span>
 
               <p className="contact__button">
-                Call me
+                Appelez ce numéro
                 {/* <img
                   src=""
                   alt="contact button icon"
@@ -143,48 +143,48 @@ function Contact({ navLinks }) {
         </div>
 
         <div className="contact__content">
-          <h3 className="contact__title">Write me your project</h3>
+          <h3 className="contact__title">Laissez-moi un message</h3>
 
           <form ref={form} onSubmit={sendEmail} className="contact__form">
             <div className="contact__form-div">
               <label htmlFor="email" className="contact__form-tag">
-                Mail
+                Email
               </label>
               <input
                 type="email"
                 name="name"
                 className="contact__form-input"
-                placeholder="Insert your email"
+                placeholder="Entrez votre email"
               />
             </div>
 
             <div className="contact__form-div">
               <label htmlFor="name" className="contact__form-tag">
-                Name
+                Nom
               </label>
               <input
                 type="text"
                 name="name"
                 className="contact__form-input"
-                placeholder="Insert your name"
+                placeholder="Entrez votre nom"
               />
             </div>
 
             <div className="contact__form-div contact__form-area">
               <label htmlFor="name" className="contact__form-tag">
-                Project
+                Message
               </label>
               <textarea
                 name="project"
                 className="contact__form-input"
                 cols="30"
                 rows="10"
-                placeholder="Write your project"
+                placeholder="Entrez votre message ici..."
               />
             </div>
 
             <button type="submit" className="button button--flex">
-              <p>Send Message</p>
+              <p>Envoyer message</p>
               {/* <img src="/assets/icons/send.svg" alt="send" /> */}
               <svg
                 xmlns="http://www.w3.org/2000/svg"

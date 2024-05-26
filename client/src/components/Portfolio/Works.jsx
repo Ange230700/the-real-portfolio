@@ -5,11 +5,11 @@ import WorkItem from "./WorkItem";
 
 function Works() {
   const allButtonId = projectsNav.find(
-    (projectNav) => projectNav.name.toLowerCase() === "all"
+    (projectNav) => projectNav.name.toLowerCase() === "tout"
   ).id;
 
   const [NavProject, setNavProject] = useState({
-    name: "all",
+    name: "tout",
   });
 
   const [projects, setProjects] = useState([]);
@@ -17,7 +17,7 @@ function Works() {
   const [active, setActive] = useState(allButtonId);
 
   useEffect(() => {
-    if (NavProject.name === "all") {
+    if (NavProject.name === "tout") {
       setProjects(projectsData);
     } else {
       const filteredProjects = projectsData.filter(

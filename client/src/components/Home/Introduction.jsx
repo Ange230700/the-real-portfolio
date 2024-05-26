@@ -12,16 +12,17 @@ function Introduction() {
         />
       </h1>
 
-      <h3 className="home__subtitle">Fullstack web developer</h3>
+      <h3 className="home__subtitle">Développeur web fullstack</h3>
 
       <p className="home__description">
-        I am a fullstack web developer with a solid foundation in both frontend
-        and backend technologies. My objective is to leverage my skills to
-        contribute to innovative and impactful solutions.
+        Je suis un développeur web fullstack avec une base solide dans les
+        technologies frontend et backend. Mon objectif est de mettre à profit
+        mes compétences pour contribuer à des solutions innovantes et
+        percutantes.
       </p>
 
       <HashLink to="#contact" className="button button--flex">
-        Let's get in touch
+        Prenons contact
         {/* <img
           src={`${import.meta.env.VITE_API_URL}/assets/icons/send.svg`}
           alt="send icon"

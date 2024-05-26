@@ -11,7 +11,7 @@ function WorkItem({ id, image, title }) {
       <img src={image} alt={title} className="work__img" />
       <h3 className="work__title">{title}</h3>
       <div to="/" className="work__button">
-        <p>OTT platform</p>
+        <p>plateforme OTT</p>
       </div>
     </Link>
   );

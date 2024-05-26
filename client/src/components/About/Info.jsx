@@ -10,7 +10,7 @@ function Info() {
           viewBox="0 0 16.933333 16.933334"
           width="50"
           xmlns="http://www.w3.org/2000/svg"
-          xmlns:svg="http://www.w3.org/2000/svg" // eslint-disable-line
+          xmlnssvg="http://www.w3.org/2000/svg" // eslint-disable-line
         >
           <clipPath id="clipPath5337">
             <path id="rect5339" d="m34.774 274.321h35.435v25.702h-35.435z" />
@@ -27,27 +27,27 @@ function Info() {
               d="m28.804688 3.734375c-8.560883 3.5397263-17.126438 7.077331-25.6894536 10.615234-2.67329778 1.052826-2.89957735 5.123483-.2363282 6.296875 8.8004908 3.582228 17.6956808 7.328498 25.2304688 10.394519 2.589276.961776 5.357151.972332 7.802734-.0078 4.129612-1.695849 8.259862-3.401578 12.388672-5.103515 4.129515 1.705766 8.319249 3.433782 11.853516 4.896484 1.008389.397115 1.141845 2.174678.164062 2.605469l-25.15039 10.365234c-1.959107.785046-4.204269.786693-6.363281-.015625l-25.1210942-10.349609c-1.0101476-.481876-.827475-2.229239.1777343-2.613282l7.3671879-3.041015c1.337333-.461493.511841-2.461722-.761719-1.845703l-7.3515626 3.033203c-2.67329778 1.052825-2.89957735 5.12352-.2363282 6.296875 3.3984874 1.398765 6.7999881 2.801945 10.1992188 4.203125l-9.9628906 4.117187c-2.67329778 1.052825-2.89957735 5.123483-.2363282 6.296875 8.7849788 3.632508 17.7038298 7.299462 25.2304688 10.394532 2.589276.961776 5.357151.97237 7.802734-.0078 8.786033-3.610876 17.69531-7.284286 25.210938-10.386719 2.663252-1.173392 2.436969-5.24405-.236328-6.296875l-8.578125-3.542969c-1.278057-.626229-2.108313 1.390717-.759766 1.845704 2.86956 1.180965 5.73461 2.386136 8.605469 3.55664 1.008389.397153 1.141845 2.174678.164062 2.605469l-25.15039 10.365234c-1.952289.782325-4.189715.785926-6.341797-.0078l-25.1425782-10.357447c-.9777858-.430791-.8462806-2.208316.1621093-2.605469 3.9512842-1.621401 7.9038699-3.2628 11.8535159-4.896484 4.137342 1.700315 8.272283 3.419054 12.410156 5.111328 2.589276.961814 5.357151.97237 7.802734-.0078 8.787246-3.597488 17.689722-7.303881 25.210925-10.386719 2.663252-1.173355 2.436969-5.24405-.236328-6.296875-3.32236-1.372808-6.643395-2.743186-9.964844-4.115235 3.400472-1.399463 6.801127-2.807418 10.201172-4.203125 2.663252-1.173392 2.436969-5.244049-.236328-6.296875-8.546169-3.570617-17.146691-7.0257219-25.681628-10.615246-2.350173-.9759844-4.132249-.9079762-6.40039 0zm5.638671 1.8515625c8.951584 3.703383 18.046983 7.4551505 25.710938 10.6230465 1.008389.397153 1.141845 2.176632.164062 2.607422l-25.15039 10.363282c-1.959107.785045-4.204269.786693-6.363281-.01563l-25.1210942-10.349605c-1.0156799-.443212-.8164125-2.245785.1777343-2.613281l25.6816409-10.607422c2.10556-.8599127 3.051002-.7504179 4.90039-.00781z"
               fill="#000000"
               transform="matrix(.265 0 0 .265 0 280.067)"
-              font-variant-ligatures="normal" // eslint-disable-line
-              font-variant-position="normal" // eslint-disable-line
-              font-variant-caps="normal" // eslint-disable-line
-              font-variant-numeric="normal" // eslint-disable-line
-              font-variant-alternates="normal" // eslint-disable-line
-              font-feature-settings="normal" // eslint-disable-line
-              text-indent="0" // eslint-disable-line
-              text-align="start" // eslint-disable-line
-              text-decoration-line="none" // eslint-disable-line
-              text-decoration-style="solid" // eslint-disable-line
-              text-decoration-color="#000000" // eslint-disable-line
-              text-transform="none" // eslint-disable-line
-              text-orientation="mixed" // eslint-disable-line
-              white-space="normal" // eslint-disable-line
-              shape-padding="0" // eslint-disable-line
+              fontvariantligatures="normal" // eslint-disable-line
+              fontvariantposition="normal" // eslint-disable-line
+              fontvariantcaps="normal" // eslint-disable-line
+              fontvariantnumeric="normal" // eslint-disable-line
+              fontvariantalternates="normal" // eslint-disable-line
+              fontfeaturesettings="normal" // eslint-disable-line
+              textindent="0" // eslint-disable-line
+              textalign="start" // eslint-disable-line
+              textdecorationline="none" // eslint-disable-line
+              textdecorationstyle="solid" // eslint-disable-line
+              textdecorationcolor="#000000" // eslint-disable-line
+              texttransform="none" // eslint-disable-line
+              textorientation="mixed" // eslint-disable-line
+              whitespace="normal" // eslint-disable-line
+              shapepadding="0" // eslint-disable-line
               isolation="auto" // eslint-disable-line
-              mix-blend-mode="normal" // eslint-disable-line
-              solid-color="#000000" // eslint-disable-line
-              solid-opacity="1" // eslint-disable-line
-              vector-effect="none" // eslint-disable-line
-              paint-order="normal" // eslint-disable-line
+              mixblendmode="normal" // eslint-disable-line
+              solidcolor="#000000" // eslint-disable-line
+              solidopacity="1" // eslint-disable-line
+              vectorEffect="none"
+              paintOrder="normal"
             />
           </g>
         </svg>
@@ -61,7 +61,7 @@ function Info() {
         <svg
           className="about__icon"
           id="Capa_1"
-          enable-background="new 0 0 512 512" // eslint-disable-line
+          enableBackground="new 0 0 512 512" // eslint-disable-line
           height="50"
           viewBox="0 0 512 512"
           width="50"
@@ -72,7 +72,7 @@ function Info() {
           </g>
         </svg>
 
-        <h3 className="about__title">Tools</h3>
+        <h3 className="about__title">Outils</h3>
         <span className="about__subtitle">Git, VS Code, Postman, Figma</span>
       </div>
 
@@ -101,7 +101,7 @@ function Info() {
           </g>
         </svg>
 
-        <h3 className="about__title">Hosting</h3>
+        <h3 className="about__title">Hébergement</h3>
         <span className="about__subtitle">Vercel, Render, Alwaysdata</span>
       </div>
     </div>

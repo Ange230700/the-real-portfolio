@@ -6,14 +6,14 @@ import ScrollDown from "../components/common/ScrollDown";
 function Skills({ navLinks }) {
   return (
     <section className="skills section" id="skills">
-      <h2 className="section__title">Skills</h2>
-      <span className="section__subtitle">My technical level</span>
+      <h2 className="section__title">Compétences</h2>
+      <span className="section__subtitle">Savoir et savoir-faire</span>
 
       <div className="skills__container container grid">
         <Frontend />
         <Backend />
 
-        <ScrollDown navLinks={navLinks} currentId="skills" />
+        <ScrollDown navLinks={navLinks} currentId="compétences" />
       </div>
     </section>
   );

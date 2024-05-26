@@ -1,7 +1,7 @@
 const navLinks = [
-  { id: 1, name: "home" },
-  { id: 2, name: "about" },
-  { id: 3, name: "skills" },
+  { id: 1, name: "accueil" },
+  { id: 2, name: "en savoir plus" },
+  { id: 3, name: "compétences" },
   { id: 4, name: "qualification" },
   { id: 5, name: "portfolio" },
   { id: 6, name: "contact" },
