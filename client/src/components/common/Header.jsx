@@ -83,7 +83,11 @@ function Header() {
                 >
                   <img
                     className="nav__icon"
-                    src={navLink.icon}
+                    src={
+                      activeNav === `#${navLink.sectionId}`
+                        ? navLink.iconSolid
+                        : navLink.iconOutline
+                    }
                     alt={navLink.name}
                   />
                   {capitalize(navLink.name)}
