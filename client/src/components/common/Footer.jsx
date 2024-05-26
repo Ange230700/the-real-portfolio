@@ -14,7 +14,11 @@ function Footer() {
         <ul className="footer__list">
           {navLinks.map((navLink) => (
             <li className="footer__item" key={navLink.id}>
-              <HashLink className="footer__link" to={`#${navLink.name}`} smooth>
+              <HashLink
+                className="footer__link"
+                to={`#${navLink.sectionId}`}
+                smooth
+              >
                 {capitalize(navLink.name)}
               </HashLink>
             </li>

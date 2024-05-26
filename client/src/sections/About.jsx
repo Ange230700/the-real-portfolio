@@ -48,7 +48,7 @@ function About({ navLinks }) {
           </a>
         </div>
 
-        <ScrollDown navLinks={navLinks} currentId="en savoir plus" />
+        <ScrollDown navLinks={navLinks} currentId="about" />
       </div>
     </section>
   );

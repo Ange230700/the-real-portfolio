@@ -73,15 +73,15 @@ function Header() {
               <li className="nav__item" key={navLink.id}>
                 <HashLink
                   className={
-                    activeNav === `#${navLink.name}`
+                    activeNav === `#${navLink.sectionId}`
                       ? "nav__link active-link"
                       : "nav__link"
                   }
-                  to={`#${navLink.name}`}
+                  to={`#${navLink.sectionId}`}
                   smooth
-                  onClick={() => setActiveNav(`#${navLink.name}`)}
+                  onClick={() => setActiveNav(`#${navLink.sectionId}`)}
                 >
-                  <img className="nav__icon" src="" alt={navLink.name} />
+                  {/* <img className="nav__icon" src="" alt={navLink.name} /> */}
                   {capitalize(navLink.name)}
                 </HashLink>
               </li>

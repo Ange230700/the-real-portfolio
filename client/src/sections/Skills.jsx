@@ -13,7 +13,7 @@ function Skills({ navLinks }) {
         <Frontend />
         <Backend />
 
-        <ScrollDown navLinks={navLinks} currentId="compétences" />
+        <ScrollDown navLinks={navLinks} currentId="skills" />
       </div>
     </section>
   );

@@ -4,9 +4,11 @@ import PropTypes from "prop-types";
 function ScrollDown({ navLinks, currentId }) {
   // Function to determine the next section
   const getNextSection = () => {
-    const currentIndex = navLinks.findIndex((link) => link.name === currentId);
+    const currentIndex = navLinks.findIndex(
+      (link) => link.sectionId === currentId
+    );
     if (currentIndex !== -1 && currentIndex < navLinks.length - 1) {
-      return navLinks[currentIndex + 1].name;
+      return navLinks[currentIndex + 1].sectionId;
     }
     return null; // No next section available
   };
@@ -49,6 +51,7 @@ ScrollDown.propTypes = {
   navLinks: PropTypes.arrayOf(
     PropTypes.shape({
       name: PropTypes.string,
+      sectionId: PropTypes.string,
     })
   ).isRequired,
   currentId: PropTypes.string.isRequired,

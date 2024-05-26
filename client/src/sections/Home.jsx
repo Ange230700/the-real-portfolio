@@ -16,7 +16,7 @@ function Home({ navLinks }) {
           <Introduction />
         </div>
 
-        <ScrollDown navLinks={navLinks} currentId="accueil" />
+        <ScrollDown navLinks={navLinks} currentId="home" />
       </div>
     </section>
   );
