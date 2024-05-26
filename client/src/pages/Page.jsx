@@ -4,8 +4,8 @@ import Skills from "../sections/Skills";
 // import Services from "../sections/Services";
 import Qualification from "../sections/Qualification";
 // import Testimonials from "../sections/Testimonials";
-import Contact from "../sections/Contact";
 import Portfolio from "../sections/Portfolio";
+import Contact from "../sections/Contact";
 import navLinks from "../data/Header/navLinks";
 
 function Page() {
