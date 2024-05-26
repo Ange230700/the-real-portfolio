@@ -1,23 +1,25 @@
+import GithubIcon from "../../../../server/public/assets/icons/github-header.svg"; // eslint-disable-line
+import LinkedInIcon from "../../../../server/public/assets/icons/in-header.svg"; // eslint-disable-line
+import TwitterIcon from "../../../../server/public/assets/icons/twitter-header.svg"; // eslint-disable-line
+
 const SocialsLinks = [
   {
     id: 1,
     url: "https://www.linkedin.com/in/ange-kouakou/",
     icon: "LinkedIn",
-    src: `${import.meta.env.VITE_API_URL}/assets/icons/in.svg`,
+    src: LinkedInIcon,
   },
   {
     id: 2,
     url: "https://github.com/Ange230700",
     icon: "Github",
-    // src: "",
-    src: `${import.meta.env.VITE_API_URL}/assets/icons/github.svg`,
+    src: GithubIcon,
   },
   {
     id: 3,
     url: "https://twitter.com/AngeEricStepha1",
     icon: "Twitter",
-    // src: "",
-    src: `${import.meta.env.VITE_API_URL}/assets/icons/twitter.svg`,
+    src: TwitterIcon,
   },
 ];
 

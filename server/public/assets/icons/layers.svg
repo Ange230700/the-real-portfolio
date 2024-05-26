@@ -1,4 +1,4 @@
-<svg id="svg4593" height="512" viewBox="0 0 16.933333 16.933334" width="512" xmlns="http://www.w3.org/2000/svg"
+<svg className="about__icon" id="svg4593" height="50" viewBox="0 0 16.933333 16.933334" width="50" xmlns="http://www.w3.org/2000/svg"
     xmlns:svg="http://www.w3.org/2000/svg">
     <clipPath id="clipPath5337">
         <path id="rect5339" d="m34.774 274.321h35.435v25.702h-35.435z" />
