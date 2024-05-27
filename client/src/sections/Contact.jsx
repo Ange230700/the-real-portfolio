@@ -15,17 +15,18 @@ function Contact({ navLinks }) {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm("service_t1fskir", "template_8sf27gv", form.current, {
-      publicKey: "hU9YtG1cK8tJWjp8c",
-    });
-    //   .then(
-    //     () => {
-    //       console.info("SUCCESS!");
-    //     },
-    //     (error) => {
-    //       console.error("FAILED...", error.text);
-    //     }
-    //   );
+    emailjs
+      .sendForm("service_2h11k8r", "template_8sf27gv", form.current, {
+        publicKey: "hU9YtG1cK8tJWjp8c",
+      })
+      .then(
+        (result) => {
+          console.info("SUCCESS!", result.text);
+        },
+        (error) => {
+          console.error("FAILED...", error.text);
+        }
+      );
 
     e.target.reset();
   };
@@ -97,7 +98,7 @@ function Contact({ navLinks }) {
               </label>
               <input
                 type="email"
-                name="name"
+                name="user_email"
                 className="contact__form-input"
                 placeholder="Entrez votre email"
               />
@@ -109,7 +110,7 @@ function Contact({ navLinks }) {
               </label>
               <input
                 type="text"
-                name="name"
+                name="user_name"
                 className="contact__form-input"
                 placeholder="Entrez votre nom"
               />
@@ -120,7 +121,7 @@ function Contact({ navLinks }) {
                 Message
               </label>
               <textarea
-                name="project"
+                name="message"
                 className="contact__form-input"
                 cols="30"
                 rows="10"
