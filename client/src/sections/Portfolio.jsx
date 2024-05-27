@@ -8,6 +8,7 @@ function Portfolio({ navLinks }) {
       <h2 className="section__title">Portfolio</h2>
       <span className="section__subtitle">Ouvrage</span>
       <Works />
+
       <ScrollDown navLinks={navLinks} currentId="portfolio" />
     </section>
   );

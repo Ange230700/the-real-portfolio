@@ -134,9 +134,9 @@ function Contact({ navLinks }) {
             </button>
           </form>
         </div>
-
-        <ScrollDown navLinks={navLinks} currentId="contact" />
       </div>
+
+      <ScrollDown navLinks={navLinks} currentId="contact" />
     </section>
   );
 }

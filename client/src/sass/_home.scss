@@ -86,8 +86,22 @@
   animation: profile__animate 8s ease-in-out infinite 1s;
 }
 
+// .home__scroll-button {
+//   gap: 0.5rem;
+// }
+
 .home__scroll-button {
+  display: flex;
+  align-items: center;
   gap: 0.5rem;
+  font-size: var(--small-font-size);
+  color: var(--text-color);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.home__scroll-button:hover {
+  color: var(--title-color);
 }
 
 @keyframes profile__animate {
@@ -108,6 +122,17 @@
   margin-left: 9.25rem;
 }
 
+.home__scroll {
+  position: absolute;
+  bottom: -2.5rem;
+  left: 10%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  z-index: 10;
+}
+
 .wheel {
   animation: scroll 2s ease infinite;
 }
@@ -124,14 +149,24 @@
 
 .home__scroll-name {
   color: var(--title-color);
-  font-size: var(--font-medium);
+  // font-size: var(--font-medium);
   margin-right: var(--mb-0-25);
-  margin-left: 2px;
+  // margin-left: 2px;
+}
+
+.home__scroll-name {
+  margin-left: 0.5rem;
+  font-size: var(--font-medium);
 }
 
 .home__scroll-arrow {
   font-style: 1.25rem;
   color: var(--title-color);
+}
+
+.home__scroll-icon {
+  width: 24px;
+  height: 24px;
 }
 
 /*=============================== BREAKPOINTS ===============================*/

@@ -38,9 +38,9 @@ function About({ navLinks }) {
             <img src={PdfIcon} alt="file pic" />
           </a>
         </div>
-
-        <ScrollDown navLinks={navLinks} currentId="about" />
       </div>
+
+      <ScrollDown navLinks={navLinks} currentId="about" />
     </section>
   );
 }

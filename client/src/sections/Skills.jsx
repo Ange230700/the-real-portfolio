@@ -12,9 +12,9 @@ function Skills({ navLinks }) {
       <div className="skills__container container grid">
         <Frontend />
         <Backend />
-
-        <ScrollDown navLinks={navLinks} currentId="skills" />
       </div>
+
+      <ScrollDown navLinks={navLinks} currentId="skills" />
     </section>
   );
 }

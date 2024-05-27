@@ -24,7 +24,7 @@ function ScrollDown({ navLinks, currentId }) {
           to={`#${nextSection}`}
           className="home__scroll-button button--flex"
         >
-          <img src={DownIcon} alt="scroll icon" />
+          <img src={DownIcon} alt="scroll icon" className="home__scroll-icon" />
           <span className="home__scroll-name">
             Passer à la section suivante
           </span>
