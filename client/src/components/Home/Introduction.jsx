@@ -1,5 +1,6 @@
 import { HashLink } from "react-router-hash-link";
 
+import HandIcon from "../../../../server/public/assets/icons/hand.svg"; // eslint-disable-line
 import SendIcon from "../../../../server/public/assets/icons/send.svg"; // eslint-disable-line
 
 function Introduction() {
@@ -8,7 +9,7 @@ function Introduction() {
       <h1 className="home__title">
         Ange KOUAKOU{" "}
         <img
-          src={`${import.meta.env.VITE_API_URL}/assets/icons/hand.svg`}
+          src={HandIcon}
           alt="waving hand icon"
           className="home__hand-icon"
         />

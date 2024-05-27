@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-// import AboutImg from "../../../server/public/assets/images/about.jpg"; // eslint-disable-line
+import AboutImg from "../../../server/public/assets/images/my_pic.jpeg"; // eslint-disable-line
 import CV from "../../../server/public/assets/resume.pdf"; // eslint-disable-line
 import Info from "../components/About/Info";
 import ScrollDown from "../components/common/ScrollDown";
@@ -14,10 +14,10 @@ function About({ navLinks }) {
 
       <div className="about__container container grid">
         <img
-          // src={AboutImg}
-          src={`
-            ${import.meta.env.VITE_API_URL}/assets/images/my_pic.jpeg
-            `}
+          src={AboutImg}
+          // src={`
+          //   ${import.meta.env.VITE_API_URL}/assets/images/my_pic.jpeg
+          //   `}
           alt="about pic"
           className="about__img"
         />
