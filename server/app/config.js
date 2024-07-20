@@ -36,7 +36,7 @@ app.use(
       process.env.CLIENT_URL, // keep this one, after checking the value in `server/.env`
       "http://mysite.com",
       "http://another-domain.com",
-      "http://vps-80a85dd9.vps.ovh.net:3001",
+      "http://vps-80a85dd9.vps.ovh.net:5000",
     ],
   })
 );

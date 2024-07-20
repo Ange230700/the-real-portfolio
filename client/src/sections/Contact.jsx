@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import { useRef } from "react";
+// import { useRef } from "react";
 import emailjs from "@emailjs/browser"; // eslint-disable-line
 import ScrollDown from "../components/common/ScrollDown";
 
@@ -10,26 +10,26 @@ import MiniPhoneIcon from "../../../server/public/assets/icons/mini-phone-call.s
 import SendIcon from "../../../server/public/assets/icons/send.svg"; // eslint-disable-line
 
 function Contact({ navLinks }) {
-  const form = useRef();
+  // const form = useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
 
-    emailjs
-      .sendForm("service_2h11k8r", "template_8sf27gv", form.current, {
-        publicKey: "hU9YtG1cK8tJWjp8c",
-      })
-      .then(
-        (result) => {
-          console.info("SUCCESS!", result.text);
-        },
-        (error) => {
-          console.error("FAILED...", error.text);
-        }
-      );
+  //   emailjs
+  //     .sendForm("service_2h11k8r", "template_8sf27gv", form.current, {
+  //       publicKey: "hU9YtG1cK8tJWjp8c",
+  //     })
+  //     .then(
+  //       (result) => {
+  //         console.info("SUCCESS!", result.text);
+  //       },
+  //       (error) => {
+  //         console.error("FAILED...", error.text);
+  //       }
+  //     );
 
-    e.target.reset();
-  };
+  //   e.target.reset();
+  // };
 
   return (
     <section className="contact section" id="contact">
@@ -88,7 +88,7 @@ function Contact({ navLinks }) {
           </div>
         </div>
 
-        <div className="contact__content">
+        {/* <div className="contact__content">
           <h3 className="contact__title">Laissez-moi un message</h3>
 
           <form ref={form} onSubmit={sendEmail} className="contact__form">
@@ -134,7 +134,7 @@ function Contact({ navLinks }) {
               <img src={SendIcon} alt="send" />
             </button>
           </form>
-        </div>
+        </div> */}
       </div>
 
       <ScrollDown navLinks={navLinks} currentId="contact" />
