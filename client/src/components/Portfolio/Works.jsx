@@ -58,6 +58,8 @@ function Works() {
             id={project.id}
             image={project.image}
             title={project.title}
+            link={project.link}
+            description={project.description}
           />
         ))}
       </div>
