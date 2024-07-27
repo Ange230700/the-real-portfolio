@@ -74,7 +74,7 @@ function Contact({ navLinks }) {
               />
 
               <h3 className="contact__card-title">Téléphone</h3>
-              <span className="contact__card-data">+33 7 51 52 41 88</span>
+              <span className="contact__card-data">+33 7 59 80 23 43</span>
 
               <p className="contact__button">
                 Appelez ce numéro
