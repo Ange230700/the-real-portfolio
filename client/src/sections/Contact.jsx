@@ -1,13 +1,13 @@
 import PropTypes from "prop-types";
 // import { useRef } from "react";
-import emailjs from "@emailjs/browser"; // eslint-disable-line
+// import emailjs from "@emailjs/browser"; // eslint-disable-line
 import ScrollDown from "../components/common/ScrollDown";
 
 import MailIcon from "../../../server/public/assets/icons/envelopes.svg"; // eslint-disable-line
 import PenIcon from "../../../server/public/assets/icons/pen-clip.svg"; // eslint-disable-line
 import PhoneIcon from "../../../server/public/assets/icons/phone-call.svg"; // eslint-disable-line
 import MiniPhoneIcon from "../../../server/public/assets/icons/mini-phone-call.svg"; // eslint-disable-line
-import SendIcon from "../../../server/public/assets/icons/send.svg"; // eslint-disable-line
+// import SendIcon from "../../../server/public/assets/icons/send.svg"; // eslint-disable-line
 
 function Contact({ navLinks }) {
   // const form = useRef();
@@ -66,7 +66,7 @@ function Contact({ navLinks }) {
               </p>
             </a>
 
-            <a href="tel:+33751524188" className="contact__card">
+            <a href="tel:+33759802343" className="contact__card">
               <img
                 src={PhoneIcon}
                 alt="contact card icon"

@@ -34,7 +34,7 @@ function Qualification({ navLinks }) {
               src={QualificationIcon}
               alt="graduation cap"
             />
-            Education
+            Formation
           </button>
 
           {/* ====== NOT ERASE THIS COMMENT ======
@@ -64,6 +64,26 @@ function Qualification({ navLinks }) {
             }
           >
             <div className="qualification__data">
+              <div />
+
+              <div>
+                <span className="qualification__rounder" />
+                <span className="qualification__line" />
+              </div>
+
+              <div>
+                <h3 className="qualification__title">
+                  Formation Développeur•se Web et Mobile
+                </h3>
+                <span className="qualification__subtitle">ADA Tech School</span>
+                <div className="qualification__calendar">
+                  <img src={CalendarIcon} alt="calendar icon" />
+                  <p>Depuis 10/2024</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">
                   Bootcamp Développement Web
@@ -73,7 +93,7 @@ function Qualification({ navLinks }) {
                 </span>
                 <div className="qualification__calendar">
                   <img src={CalendarIcon} alt="calendar icon" />
-                  <p>09/2023 - 02/2024</p>
+                  <p>10/2023 - 02/2024</p>
                 </div>
               </div>
 
@@ -98,7 +118,7 @@ function Qualification({ navLinks }) {
                 </span>
                 <div className="qualification__calendar">
                   <img src={CalendarIcon} alt="calendar icon" />
-                  <p>09/2022 - 04/2023</p>
+                  <p>09/2022 - 05/2023</p>
                 </div>
               </div>
             </div>
@@ -136,7 +156,7 @@ function Qualification({ navLinks }) {
                 <span className="qualification__subtitle">CESI Toulouse</span>
                 <div className="qualification__calendar">
                   <img src={CalendarIcon} alt="calendar icon" />
-                  <p>10/2020 - 04/2021</p>
+                  <p>09/2020 - 05/2021</p>
                 </div>
               </div>
             </div>
@@ -178,7 +198,7 @@ function Qualification({ navLinks }) {
                 </span>
                 <div className="qualification__calendar">
                   <img src={CalendarIcon} alt="calendar icon" />
-                  <p>09/2017 - 06/2019</p>
+                  <p>09/2017 - 07/2019</p>
                 </div>
               </div>
             </div>
