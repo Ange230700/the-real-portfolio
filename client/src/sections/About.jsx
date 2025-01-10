@@ -33,10 +33,10 @@ function About({ navLinks }) {
             des solutions innovantes et impactantes.
           </p>
 
-          {/* <a download href={CV} className="button button--flex">
+          <a download href={CV} className="button button--flex">
             <p>Télécharger CV</p>
             <img src={PdfIcon} alt="file pic" />
-          </a> */}
+          </a>
         </div>
       </div>
 

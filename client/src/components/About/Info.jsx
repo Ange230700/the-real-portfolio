@@ -26,7 +26,7 @@ function Info() {
           <li className="about__subtitle">VSCode</li>
           <li className="about__subtitle">Postman</li>
           <li className="about__subtitle">Figma</li>
-          <li className="about__subtitle">GPT-4o</li>
+          <li className="about__subtitle">GPT-o1</li>
         </ul>
       </div>
 
