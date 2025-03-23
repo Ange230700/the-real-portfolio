@@ -1,3 +1,5 @@
+// client\src\components\About\Info.jsx
+
 import LayersIcon from "../../../../server/public/assets/icons/layers.svg"; // eslint-disable-line
 import SkillsIcon from "../../../../server/public/assets/icons/technical-support.svg"; // eslint-disable-line
 import ServerIcon from "../../../../server/public/assets/icons/server.svg"; // eslint-disable-line

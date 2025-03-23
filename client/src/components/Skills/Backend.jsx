@@ -1,3 +1,5 @@
+// client\src\components\Skills\Backend.jsx
+
 import MySqlIcon from "../../../../server/public/assets/icons/mysql.svg"; // eslint-disable-line
 import NodeIcon from "../../../../server/public/assets/icons/nodejs.svg"; // eslint-disable-line
 import ExpressIcon from "../../../../server/public/assets/icons/icons8-express-js.svg"; // eslint-disable-line

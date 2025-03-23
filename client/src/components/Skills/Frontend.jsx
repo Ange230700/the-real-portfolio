@@ -1,3 +1,5 @@
+// client\src\components\Skills\Frontend.jsx
+
 import ReactIcon from "../../../../server/public/assets/icons/molecule.svg"; // eslint-disable-line
 import SassIcon from "../../../../server/public/assets/icons/process.svg"; // eslint-disable-line
 

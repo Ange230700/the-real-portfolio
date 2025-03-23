@@ -8,7 +8,7 @@ function Portfolio() {
   return (
     <section className="portfolio section" id="portfolio">
       <h2 className="section__title">Portfolio</h2>
-      <span className="section__subtitle">Ouvrage</span>
+      <span className="section__subtitle">Projets & Réalisations</span>
       <Works />
 
       {/* <ScrollDown navLinks={navLinks} currentId="portfolio" /> */}
