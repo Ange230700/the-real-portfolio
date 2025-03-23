@@ -1,3 +1,5 @@
+// client\src\sections\About.jsx
+
 import PropTypes from "prop-types";
 import AboutImg from "../../../server/public/assets/images/my_pic.jpeg"; // eslint-disable-line
 import CV from "../../../server/public/assets/resume.pdf"; // eslint-disable-line

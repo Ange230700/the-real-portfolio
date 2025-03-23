@@ -1,9 +1,11 @@
-import PropTypes from "prop-types";
+// client\src\sections\Home.jsx
+
+// import PropTypes from "prop-types";
 import Social from "../components/Home/Social";
 import Introduction from "../components/Home/Introduction";
-import ScrollDown from "../components/common/ScrollDown";
+// import ScrollDown from "../components/common/ScrollDown";
 
-function Home({ navLinks }) {
+function Home() {
   return (
     <section className="home section" id="home">
       <div className="home__container container grid">
@@ -17,17 +19,17 @@ function Home({ navLinks }) {
         </div>
       </div>
 
-      <ScrollDown navLinks={navLinks} currentId="home" />
+      {/* <ScrollDown navLinks={navLinks} currentId="home" /> */}
     </section>
   );
 }
 
-Home.propTypes = {
-  navLinks: PropTypes.arrayOf(
-    PropTypes.shape({
-      name: PropTypes.string,
-    })
-  ).isRequired,
-};
+// Home.propTypes = {
+// navLinks: PropTypes.arrayOf(
+//   PropTypes.shape({
+//     name: PropTypes.string,
+//   })
+// ).isRequired,
+// };
 
 export default Home;

@@ -1,12 +1,14 @@
-import PropTypes from "prop-types";
+// client\src\sections\Qualification.jsx
+
+// import PropTypes from "prop-types";
 import { useState } from "react";
 
-import ScrollDown from "../components/common/ScrollDown";
+// import ScrollDown from "../components/common/ScrollDown";
 
 import CalendarIcon from "../../../server/public/assets/icons/calendar-days.svg"; // eslint-disable-line
 import QualificationIcon from "../../../server/public/assets/icons/graduation-cap.svg"; // eslint-disable-line
 
-function Qualification({ navLinks }) {
+function Qualification() {
   const [toggleState, setToggleState] = useState(1);
 
   const toggleTab = (index) => {
@@ -206,17 +208,17 @@ function Qualification({ navLinks }) {
         </div>
       </div>
 
-      <ScrollDown navLinks={navLinks} currentId="qualification" />
+      {/* <ScrollDown navLinks={navLinks} currentId="qualification" /> */}
     </section>
   );
 }
 
-Qualification.propTypes = {
-  navLinks: PropTypes.arrayOf(
-    PropTypes.shape({
-      name: PropTypes.string,
-    })
-  ).isRequired,
-};
+// Qualification.propTypes = {
+  // navLinks: PropTypes.arrayOf(
+    // PropTypes.shape({
+      // name: PropTypes.string,
+    // })
+  // ).isRequired,
+// };
 
 export default Qualification;

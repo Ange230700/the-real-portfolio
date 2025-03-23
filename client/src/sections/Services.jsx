@@ -1,8 +1,10 @@
-import PropTypes from "prop-types";
-import { useState } from "react";
-import ScrollDown from "../components/common/ScrollDown";
+// client\src\sections\Services.jsx
 
-function Services({ navLinks }) {
+// import PropTypes from "prop-types";
+import { useState } from "react";
+// import ScrollDown from "../components/common/ScrollDown";
+
+function Services() {
   const [toggleState, setToggleState] = useState(0);
 
   const toggleTab = (index) => {
@@ -27,7 +29,7 @@ function Services({ navLinks }) {
             className="services__button"
             onClick={() => toggleTab(1)}
           >
-            View More
+            View More{" "}
             <img src="" alt="more icon" className="services__button-icon" />
           </button>
 
@@ -124,7 +126,7 @@ function Services({ navLinks }) {
             className="services__button"
             onClick={() => toggleTab(1)}
           >
-            View More
+            View More{" "}
             <img src="" alt="more icon" className="services__button-icon" />
           </button>
 
@@ -221,7 +223,7 @@ function Services({ navLinks }) {
             className="services__button"
             onClick={() => toggleTab(1)}
           >
-            View More
+            View More{" "}
             <img src="" alt="more icon" className="services__button-icon" />
           </button>
 
@@ -299,18 +301,18 @@ function Services({ navLinks }) {
           </div>
         </div>
 
-        <ScrollDown navLinks={navLinks} currentId="services" />
+        {/* <ScrollDown navLinks={navLinks} currentId="services" /> */}
       </div>
     </section>
   );
 }
 
-Services.propTypes = {
-  navLinks: PropTypes.arrayOf(
-    PropTypes.shape({
-      name: PropTypes.string,
-    })
-  ).isRequired,
-};
+// Services.propTypes = {
+// navLinks: PropTypes.arrayOf(
+// PropTypes.shape({
+// name: PropTypes.string,
+// })
+// ).isRequired,
+// };
 
 export default Services;
