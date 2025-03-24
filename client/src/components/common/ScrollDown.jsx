@@ -1,3 +1,5 @@
+// client\src\components\common\ScrollDown.jsx
+
 import { HashLink } from "react-router-hash-link";
 import PropTypes from "prop-types";
 

@@ -1,3 +1,5 @@
+// client\src\data\Portfolio\projectsData.jsx
+
 import Work1 from "../../../../server/public/assets/images/DAF.png"; // eslint-disable-line
 import Work2 from "../../../../server/public/assets/images/quiz.png"; // eslint-disable-line
 import Work3 from "../../../../server/public/assets/images/morseTranslator.png"; // eslint-disable-line
@@ -11,7 +13,7 @@ const projectsData = [
     title: "DAF",
     link: "https://ongoing-fbi-investigations.vercel.app/",
     category: "",
-    description: "Registre de données",
+    description: "",
   },
   {
     id: 2,
@@ -19,7 +21,7 @@ const projectsData = [
     title: "Quiz",
     link: "https://quizz-two-delta.vercel.app/",
     category: "",
-    description: "Jeu",
+    description: "",
   },
   {
     id: 3,
@@ -27,7 +29,7 @@ const projectsData = [
     title: "Morse translator",
     link: "https://04-can-you-speak-morse.vercel.app/",
     category: "",
-    description: "Traduction",
+    description: "",
   },
   // {
   //   id: 4,
@@ -43,7 +45,7 @@ const projectsData = [
     title: "Mastermind",
     link: "https://08-mastermind.vercel.app/",
     category: "",
-    description: "Jeu de société",
+    description: "",
   },
 ];
 
