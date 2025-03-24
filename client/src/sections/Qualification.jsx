@@ -17,7 +17,7 @@ function Qualification() {
 
   return (
     <section className="qualification section" id="qualification">
-      <h2 className="section__title">Qualification</h2>
+      <h2 className="section__title">Éducation</h2>
       <span className="section__subtitle">Parcours</span>
 
       <div className="qualification__container container grid">
