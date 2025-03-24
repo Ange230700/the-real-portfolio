@@ -13,11 +13,11 @@ function Page() {
     <>
       <Home navLinks={navLinks} />
       <About navLinks={navLinks} />
+      <Portfolio navLinks={navLinks} />
       <Skills navLinks={navLinks} />
       {/* <Services navLinks={navLinks} /> */}
       <Qualification navLinks={navLinks} />
       {/* <Testimonials navLinks={navLinks} /> */}
-      <Portfolio navLinks={navLinks} />
       <Contact navLinks={navLinks} />
     </>
   );
