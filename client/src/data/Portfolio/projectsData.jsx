@@ -6,8 +6,17 @@ import Work2 from "../../../../server/public/assets/images/quiz.png"; // eslint-
 // import Work4 from "../../../../server/public/assets/images/Eating-nam-nam.png"; // eslint-disable-line
 import Work5 from "../../../../server/public/assets/images/mastermind.png"; // eslint-disable-line
 import Work6 from "../../../../server/public/assets/images/back_office.png"; // eslint-disable-line
+import Work7 from "../../../../server/public/assets/images/ott.png"; // eslint-disable-line
 
 const projectsData = [
+  {
+    id: 7,
+    image: Work7,
+    title: "OTT",
+    link: "https://supreme-ott.vercel.app/",
+    category: "",
+    description: "",
+  },
   {
     id: 6,
     image: Work6,
